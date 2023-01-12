@@ -1,0 +1,83 @@
+@font-face {
+  font-family: MyFont1;
+  src: url(../fonts/PublicSans-Light.ttf);
+}
+
+@font-face {
+  font-family: MyFont2;
+  src: url(../fonts/PublicSans-Medium.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.all-body-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color: rgb(236, 236, 236);
+}
+
+.all-body {
+  background-color: white;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 350px;
+  height: 500px;
+  box-shadow: 0px 2px 5px rgb(165, 165, 165);
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+
+.sentence1 {
+  font-family: 'Waterfall', cursive;
+  font-size: 100px;
+  width: 50px;
+  line-height: 50px;
+  transform: rotate(345deg);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sentence2 {
+  font-family: MyFont2;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.sentence3 {
+  font-family: MyFont1;
+  letter-spacing: 1px;
+  font-size: 9px;
+  margin-bottom: 15px;
+}
+
+.sentence4 {
+  font-family: MyFont2;
+  letter-spacing: 2px;
+  font-size: 12px;
+  width: 200px;
+  margin-left: 25px;
+  margin-bottom: 15px;
+}
+
+.sentence5 {
+  font-family: MyFont2;
+  font-size: 9px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.sentence6 {
+  font-family: 'Charm', cursive;
+  font-weight: bold;
+  font-size: 10px;
+  letter-spacing: 1px;
+}

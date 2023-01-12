@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.all-body-box {
+  display: flex;
+  justify-content: center;
+}
+
+.all-body {
+  width: 280px;
+  margin-top: 50px;
+  transition: 0.4s;
+}
+
+
+.all-body:hover .link-button {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+
+
+.all-body:hover .link-button a {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(189, 111, 81);
+  width: 150px;
+  text-align: center;
+  padding-top: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.all-body:hover .link-button a:hover {
+  width: 160px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  box-shadow: 0px 2px 10px black;
+}
+
+
+.all-body:hover {
+  background-color: rgb(189, 111, 81);
+  box-shadow: 3px 5px 10px black;
+  height: 400px;
+  border-radius: 20px;
+}
+
+.all-body:hover .image-box img {
+  filter: invert(49%) sepia(92%) saturate(1520%) hue-rotate(349deg) brightness(83%) contrast(59%);
+}
+
+.all-body:hover .image-box {
+  background-color: white;
+  margin-top: 20px;
+}
+
+.all-body:hover .text-box {
+  display: none;
+}
+
+.all-body:hover .title-box {
+  display: none;
+}
+
+.link-button {
+  display: none;
+}
+
+.for-center {
+  display: flex;
+  justify-content: center;
+}
+
+.image-box {
+  background-color: rgb(189, 111, 81);
+  /* background-color: white; */
+  width: 170px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  margin-top: 20px;
+}
+
+.image-box img {
+  width: 90px;
+  height: 60px;
+}
+
+.title-box {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 25px;
+  width: 220px;
+}
+
+.text-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.text {
+  font-size: 17px;
+  color: rgb(148, 148, 148);
+}

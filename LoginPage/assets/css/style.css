@@ -1,0 +1,197 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.all-body {
+  background-image: linear-gradient(to right top, rgb(120, 108, 251), 30%, rgb(5, 128, 244), rgb(48, 155, 255), 86%, rgb(65, 199, 206));
+  height: 700px;
+  width: 1536px;
+  position: relative;
+}
+
+.navbar-box {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+}
+
+.name-box {
+  padding-top: 20px;
+}
+
+.name-box p {
+  font-size: 20px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.navbar-items-box {
+  padding-top: 20px;
+}
+
+.navbar-items-box a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 25px;
+  transition: 0.3s;
+}
+
+.navbar-items-box a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+
+  padding: 10px;
+}
+
+.navbar-items-box a:last-child:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+
+}
+
+.navbar-items-box :last-child {
+  background-color: transparent;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+.main-body-box {
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
+
+.main-body {
+  display: flex;
+}
+
+.left-part {
+  width: 650px;
+  height: 200px;
+  margin-top: 70px;
+  display: grid;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.left-title-box p {
+  width: 400px;
+  font-size: 42px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.left-paragraph-box {
+  width: 375px;
+}
+
+.left-paragraph-box p {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: white;
+}
+
+.left-paragraph-box a {
+  text-decoration: none;
+  color: rgb(156, 182, 192);
+}
+
+.left-button {
+  margin-top: 15px;
+}
+
+.left-button button {
+  height: 40px;
+  width: 140px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(39, 171, 32);
+  color: white;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.right-part {
+  margin-left: 100px;
+  width: 650px;
+}
+
+.register-box {
+  border-radius: 5px;
+  width: 300px;
+  padding: 20px;
+  height: 350px;
+  background-color: white;
+  box-shadow: 1px 1px 20px rgb(39, 38, 38);
+}
+
+.register-box form {
+  display: grid;
+}
+
+.register-box form input {
+  height: 35px;
+  padding-left: 10px;
+  background-color: rgb(239, 239, 239);
+  border: none;
+  border-radius: 3px;
+  margin-top: 15px;
+}
+
+.register-box form :last-child {
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(0, 136, 255);
+  box-shadow: 1px 2px 10px rgb(0, 136, 255);
+  cursor: pointer;
+}
+
+.register-box form select {
+  height: 35px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(239, 239, 239);
+  margin-top: 15px;
+  cursor: pointer;
+
+}
+
+.trapezoid {
+  border-bottom: 0px solid transparent;
+  border-Top: 100px solid transparent;
+  border-right: 1546px solid white;
+  height: 50px;
+  margin-left: -10px;
+  background-color: transparent;
+  /* z-index: 1; */
+  position: absolute;
+  bottom: 15px;
+}
